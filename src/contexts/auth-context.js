@@ -118,7 +118,7 @@ export const AuthProvider = (props) => {
       id: '5e86809283e28b96d2d38537',
       avatar: '/assets/avatars/avatar-josue-elisio.png',
       name: 'Josue Elisio',
-      email: 'josue.elisio@devias.io'
+      email: 'josue.elisio@twygo.io'
     };
 
     dispatch({
@@ -128,7 +128,7 @@ export const AuthProvider = (props) => {
   };
 
   const signIn = async (email, password) => {
-    if (email !== 'demo@devias.io' || password !== 'Password123!') {
+    if (email !== 'josue.elisio@twygo.io' || password !== 'Password123!') {
       throw new Error('Please check your email and password');
     }
 
